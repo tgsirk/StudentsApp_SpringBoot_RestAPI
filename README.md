@@ -22,7 +22,7 @@ Content-Type: application/json
 
 {
 "name": "Oskar",
-"email": "chu5j123@op.pl",
+"email": "osakr53@op.pl",
 "dob": "1992-12-17"
 }
 
