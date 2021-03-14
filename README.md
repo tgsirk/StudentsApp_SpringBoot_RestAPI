@@ -13,10 +13,10 @@ spring.jpa.properties.hibernate.format_sql=true
 server.error.include-message=always
 
 examples of get/post/delete/put
-### get showing findALl() from db
+### get - showing findALl() from db
 GET http://localhost:8080/api/v1/student   
 
-### post - can be used to place a new student in db, in this examples student's name is oskar.
+### post - can be used to place a new student in db. This example student's name is oskar.
 POST http://localhost:8080/api/v1/student
 Content-Type: application/json
 
@@ -26,8 +26,8 @@ Content-Type: application/json
 "dob": "1992-12-17"
 }
 
-### delete - just delete the student giving only his id
+### delete - delete the student by his ID
 DELETE http://localhost:8080/api/v1/student/3
 
-### put - update information about student
+### put - update informations about student
 PUT http://localhost:8080/api/v1/student/3?email=Oskar53@gmail.com
