@@ -35,7 +35,7 @@ public class Student {
     private Integer age;
     private LocalDate dob;
 
-    /* Constructor without id, cuz id is generate automatically*/
+    /* Constructor without id, cuz id generates automatically*/
     public Student(String name, String email, LocalDate dob) {
         this.name = name;
         this.email = email;
